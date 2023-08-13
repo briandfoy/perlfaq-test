@@ -62,7 +62,7 @@ jobs:
             - name: Install Ubuntu packages
               run: |
                 apt update
-                apt full-upgrade
+                apt full-upgrade -y
                 apt-get install -y aspell
             - uses: actions/checkout@v3
             - name: Platform check
