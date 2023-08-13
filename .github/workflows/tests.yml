@@ -21,7 +21,6 @@ on:
             - '.appveyor.yml'
             - '.circleci'
             - '.gitattributes'
-            - '.github/workflows/tests.yml'
             - '.gitignore'
             - 'Changes'
             - 'LICENSE'
