@@ -61,8 +61,8 @@ jobs:
         steps:
             - uses: awalsh128/cache-apt-pkgs-action@latest
               with:
-              packages: aspell
-              version: 1.0
+                packages: aspell
+                version: 1.0
             - uses: actions/checkout@v3
             - name: Platform check
               run: uname -a
