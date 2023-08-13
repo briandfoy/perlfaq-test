@@ -61,7 +61,8 @@ jobs:
         steps:
             - name: Install Ubuntu packages
               run: |
-                apt-get install aspell
+                apt update
+                apt install -y aspell
             - uses: actions/checkout@v3
             - name: Platform check
               run: uname -a
